@@ -1,10 +1,10 @@
 def fizzbuzz(input)
   if input % 15 == 0
-    puts "FizzBuzz"
+    return "FizzBuzz"
   elsif input % 5 == 0
-    puts "Buzz"
+    return "Buzz"
   elsif input % 3 == 0
-    puts "Fizz"
+    return "Fizz"
   else
     return nil;
   end
